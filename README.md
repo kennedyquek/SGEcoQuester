@@ -15,6 +15,7 @@ This repo is the repository for SGEcoQuester, an AR app for eco-conscious urban 
 2. Install the locked dependencies and generate the iOS project:
 
    ```bash
+   npm install
    npm ci
    npx expo prebuild --platform ios
    open ios/*.xcworkspace
