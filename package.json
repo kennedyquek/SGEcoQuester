@@ -1,0 +1,32 @@
+{
+  "name": "sgecoquester-my-version",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "test": "node --test tests/*.test.js",
+    "check": "node scripts/check-project.js"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "~57.0.9",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@reactvision/react-viro": "2.57.3",
+    "@tensorflow-models/mobilenet": "2.1.1",
+    "@tensorflow/tfjs": "4.22.0",
+    "buffer": "6.0.3",
+    "expo": "~57.0.24",
+    "expo-build-properties": "57.0.22",
+    "expo-dev-client": "~57.0.19",
+    "expo-image-manipulator": "~57.0.19",
+    "expo-image-picker": "~57.0.19",
+    "expo-status-bar": "~57.0.1",
+    "jpeg-js": "0.4.4",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0"
+  },
+  "private": true
+}

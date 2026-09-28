@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "SGEcoQuester",
+    "slug": "SGEcoQuester",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kennedy.sgecoquester"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package":"com.kennedy.sgecoquester"
+    },
+    "plugins": [
+    [
+      "expo-image-picker",
+      {
+        "cameraPermission": "Allow app to photograph an object and place a fact card.",
+        "photosPermission": "Allow app to analyze selected photograph.",
+        "microphonePermission": false
+      }
+    ],
+    [
+      "@reactvision/react-viro",
+      {
+        "ios": {
+          "cameraUsagePermission": "Allow app to photograph an object and place a fact card."
+        }
+      }
+    ],
+    [
+      "expo-build-properties",
+      {
+        "ios": {
+          "enableSceneSupport": true
+        }
+      }
+    ]
+  ]
+  }
+}
